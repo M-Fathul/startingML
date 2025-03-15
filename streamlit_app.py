@@ -26,8 +26,3 @@ with st.sidebar:
   data = {'Status': Status, 'Kelamin': Kelamin, 'Usia': Usia, 'Memiliki_Mobil': Memiliki_Mobil, 'Penghasilan': Penghasilan}
   input_df = pd.DataFrame(data, index=[0])
 input_df
-target_mapper = {0: 'tidak membeli mobil', 1:'membeli mobil'}
-def terget_encoder(val, target_mapper):
-  return target_mapper[val]
-klasifikasi = y.apply(terget_encoder)
-klasifikasi
