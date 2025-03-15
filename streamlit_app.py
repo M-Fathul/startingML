@@ -10,7 +10,7 @@ with st.expander('Data'):
   df
   st.write('**Class**')
   X = df.drop(['Beli_Mobil', 'ID'], axis=1)
-  x
+  X
   st.write('**features**')
   y = df.Beli_Mobil
   y
