@@ -17,4 +17,4 @@ with st.expander('Data'):
   y = df.Beli_Mobil
   y
   source = df
-  st.bar_chart(source, x="Beli_Mobil", y="none", color="Beli_Mobil", stack=False)
+  st.bar_chart(source, x="Beli_Mobil", y="none", color="site", stack=False)
