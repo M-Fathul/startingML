@@ -20,4 +20,4 @@ with st.expander('Data'):
 with st.sidebar:
   Status = st.selectbox('Status', (0, 1, 2, 3))
   Kelamin = st.selectbox('Status', (0, 1))
-  Usia = st.slider("How old are you?", 0, 167, 0)
+  Usia = st.number_input("Insert age", value=None, placeholder="Type a number...")
