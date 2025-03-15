@@ -16,5 +16,3 @@ with st.expander('Data'):
   st.write('**Class**')
   y = df.Beli_Mobil
   y
-  source = df
-  st.bar_chart(source, x="Beli_Mobil", y="none", color="site", stack=False)
