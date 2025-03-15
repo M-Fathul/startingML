@@ -27,7 +27,7 @@ with st.sidebar:
   input_df = pd.DataFrame(data, index=[0])
 input_df
 target_mapper = {0: 'tidak membeli mobil', 1:'membeli mobil'}
-def terget_encoder(val):
-  return target_mapper[val]
+def terget_encoder(val, target):
+  return target[val]
 klasifikasi = y.apply(terget_encoder)
 klasifikasi
