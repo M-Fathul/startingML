@@ -8,6 +8,10 @@ st.info('Hello world!')
 with st.expander('Data'):
   df = pd.read_csv('https://raw.githubusercontent.com/M-Fathul/startingML/refs/heads/master/calonpembelimobil.csv')
   df
-  print('**Class**')
-  
+  st.write('**Class**')
+  X = df.drop(['Beli_Mobil', 'ID'], axis=1)
+  x
+  st.write('**features**')
+  y = df.Beli_Mobil
+  y
 
