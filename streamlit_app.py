@@ -6,7 +6,6 @@ import pickle as pk
 st.title('Prediksi Harga Mobil Bekas UK')
 
 st.info('Hello world!')
-eqweqwe
 with st.expander('Data'):
   df = pd.read_csv('https://raw.githubusercontent.com/M-Fathul/startingML/refs/heads/master/calonpembelimobil.csv')
   df
