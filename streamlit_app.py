@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle as pk
 
-st.title('🎈 App Name')
+st.title('Prediksi Harga Mobil Bekas UK')
 
 st.info('Hello world!')
-
+eqweqwe
 with st.expander('Data'):
   df = pd.read_csv('https://raw.githubusercontent.com/M-Fathul/startingML/refs/heads/master/calonpembelimobil.csv')
   df
